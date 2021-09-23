@@ -1,3 +1,5 @@
+package FluentAPI;
+
 import com.codeborne.selenide.testng.SoftAsserts;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;

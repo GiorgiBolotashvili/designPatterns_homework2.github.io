@@ -1,3 +1,5 @@
+package FluentAPI;
+
 import com.codeborne.selenide.AssertionMode;
 import com.codeborne.selenide.Configuration;
 
