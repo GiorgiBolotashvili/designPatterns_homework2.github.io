@@ -1,11 +1,13 @@
 package FluentAPI;
 
 import com.codeborne.selenide.testng.SoftAsserts;
+import io.qameta.allure.*;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-
+@Epic("Allure examples")
+@Feature("selenide support")
 @Listeners({SoftAsserts.class})
 public class FluentDemoqaTests extends ConfigurationClass {
     private DemoqaPage _demoqaPage;
@@ -16,12 +18,15 @@ public class FluentDemoqaTests extends ConfigurationClass {
     private String _mainText = "Thanks for submitting the form";
     private String _url = "https://demoqa.com/";
 
-    @BeforeMethod
+    @BeforeMethod(description = "Assign a configuration ")
     public void Start(){
         _demoqaPage = new DemoqaPage(_url);
     }
 
-    @Test
+
+    @Severity(SeverityLevel.NORMAL)
+    @Story("Base support for annotations")
+    @Test(description = "Running the main test", invocationCount = 3)
     public void MainTest(){
         _demoqaPage
                 .Navigate()
@@ -33,7 +38,7 @@ public class FluentDemoqaTests extends ConfigurationClass {
                 .FillPhoneNumber(_phone)
                 .Submit()
                 .CheckMainText(_mainText)
-                .CheckStudentNameText(_name,_lastName)
+                .CheckStudentNameText(_name,_name)
                 .CheckStudentGenderText(_gender)
                 .CheckStudentPhoneNumber(_phone);
     }

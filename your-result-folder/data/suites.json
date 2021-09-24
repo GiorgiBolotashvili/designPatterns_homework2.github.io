@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "designPatterns_homework2",
+      "children" : [ {
+        "name" : "FluentAPI.FluentDemoqaTests",
+        "children" : [ {
+          "name" : "Running the main test",
+          "uid" : "b0d75dad024a54c1",
+          "parentUid" : "30b008c852ae31d8339ae11638976f6f",
+          "status" : "failed",
+          "time" : {
+            "start" : 1632509065468,
+            "stop" : 1632509072333,
+            "duration" : 6865
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "30b008c852ae31d8339ae11638976f6f"
+      } ],
+      "uid" : "90549df39fd012b77615c3590f4b38cd"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  } ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should have text 'Gio Gio' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(1) > td:nth-child(2)}\r\nElement: '<td>Gio Bolota</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632509071921.2.png\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Running the main test",
+        "uid" : "b0d75dad024a54c1",
+        "parentUid" : "0c2e5a955974ccfe5a62e1dfe85bcb83",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632509065468,
+          "stop" : 1632509072333,
+          "duration" : 6865
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c2e5a955974ccfe5a62e1dfe85bcb83"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

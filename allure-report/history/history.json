@@ -1,0 +1,22 @@
+{
+  "a0d648e6d1e43a5bee88698f033a1827" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4619b88898b2eebf",
+      "status" : "failed",
+      "statusDetails" : "Element should have text 'Gio Gio' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(1) > td:nth-child(2)}\r\nElement: '<td>Gio Bolota</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632509071921.2.png\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1632509065468,
+        "stop" : 1632509072333,
+        "duration" : 6865
+      }
+    } ]
+  }
+}

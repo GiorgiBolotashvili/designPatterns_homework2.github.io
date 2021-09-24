@@ -1,0 +1,30 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Allure examples",
+    "children" : [ {
+      "name" : "selenide support",
+      "children" : [ {
+        "name" : "Base support for annotations",
+        "children" : [ {
+          "name" : "Running the main test",
+          "uid" : "4619b88898b2eebf",
+          "parentUid" : "c3f5064ee16810558172be4c42fdf35a",
+          "status" : "failed",
+          "time" : {
+            "start" : 1632509065468,
+            "stop" : 1632509072333,
+            "duration" : 6865
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c3f5064ee16810558172be4c42fdf35a"
+      } ],
+      "uid" : "2ba2f1d2545b144f92b8756a0ac4b567"
+    } ],
+    "uid" : "424406e423d06e35554b3b34fc7a7dbe"
+  } ]
+}

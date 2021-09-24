@@ -2,6 +2,7 @@ package FluentAPI;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -50,6 +51,7 @@ public class DemoqaPageElements {
     public  SelenideElement StudentNameText(){
         return  $("body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(1) > td:nth-child(2)");
     }
+    @Step
     public SelenideElement StudentGenderText(){
         return  $("body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(3) > td:nth-child(2)");
     }

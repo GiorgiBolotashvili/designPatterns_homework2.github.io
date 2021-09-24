@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Sep 24 22:44:25 AMT 2021","Fri Sep 24 22:44:32 AMT 2021","6865","Default Suite","designPatterns_homework2","FluentAPI.FluentDemoqaTests","FluentAPI.FluentDemoqaTests","MainTest","Running the main test",""
