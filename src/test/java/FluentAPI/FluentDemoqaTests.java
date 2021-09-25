@@ -2,13 +2,19 @@ package FluentAPI;
 
 import com.codeborne.selenide.testng.SoftAsserts;
 import io.qameta.allure.*;
+
+import junit.framework.TestListener;
+import junit.textui.TestRunner;
+import org.testng.ITestListener;
+import org.testng.TestListenerAdapter;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+
 @Epic("Allure examples")
 @Feature("selenide support")
-@Listeners({SoftAsserts.class})
+@Listeners({SoftAsserts.class, TestLIstener.class})
 public class FluentDemoqaTests extends ConfigurationClass {
     private DemoqaPage _demoqaPage;
     private String _name = "Gio";
@@ -28,7 +34,7 @@ public class FluentDemoqaTests extends ConfigurationClass {
     @Description("Running the main test")
     @Severity(SeverityLevel.NORMAL)
     @Story("Base support for annotations")
-    @Test(invocationCount = 3)
+    @Test(invocationCount = 1)
     public void MainTest(){
         _demoqaPage
                 .Navigate()

@@ -21,13 +21,15 @@ public class DemoqaPageElements {
     public SelenideElement PracticeForms(){
         return $(By.xpath("//div[@class='element-list collapse show']"));
     }
-
+    @Step
     public SelenideElement FirstName(){
         return $("#firstName");
     }
+    @Step
     public SelenideElement LastName(){
         return $("#lastName");
     }
+    @Step
     public SelenideElement Gender(String gender){
         ElementsCollection genders = $("#genterWrapper > div.col-md-9.col-sm-12").findAll("#genterWrapper > div.col-md-9.col-sm-12 > div > label");
         for (SelenideElement g : genders)
@@ -39,7 +41,7 @@ public class DemoqaPageElements {
         }
         return null;
     }
-
+    @Step
     public SelenideElement PhoneNumber(){
         return $("#userNumber");
     }
@@ -47,10 +49,11 @@ public class DemoqaPageElements {
     public SelenideElement SubmitButton(){
         return $("#submit");
     }
-
+    @Step
     public SelenideElement MainText(){
         return $("#example-modal-sizes-title-lg");
     }
+    @Step
     public  SelenideElement StudentNameText(){
         return  $("body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(1) > td:nth-child(2)");
     }
@@ -58,6 +61,7 @@ public class DemoqaPageElements {
     public SelenideElement StudentGenderText(){
         return  $("body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(3) > td:nth-child(2)");
     }
+    @Step
     public SelenideElement StudentPhoneNumberText(){
         return $("body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(4) > td:nth-child(2)");
     }
