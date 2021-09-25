@@ -62,12 +62,12 @@ public class DemoqaPage extends DemoqaPageElements {
         MainText().shouldHave(Condition.text(text));
         return this;
     }
-    @Step("Check fullName with {0} and {1}")
+    @Step("CheckStudentNameText with {0} and {1}")
     public DemoqaPage CheckStudentNameText(String firsName, String lastName){
         StudentNameText().shouldHave(Condition.text(firsName+" "+lastName));
         return this;
     }
-    @Step
+    @Step("CheckStudentGenderText with {0}")
     public DemoqaPage CheckStudentGenderText(String gender){
         StudentGenderText().shouldHave(Condition.text(gender));
         return this;

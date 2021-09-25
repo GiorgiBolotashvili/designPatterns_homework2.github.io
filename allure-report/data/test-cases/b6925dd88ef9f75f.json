@@ -1,5 +1,5 @@
 {
-  "uid" : "f6e8684af3a9ce64",
+  "uid" : "b6925dd88ef9f75f",
   "name" : "Running the main test",
   "fullName" : "FluentAPI.FluentDemoqaTests.MainTest",
   "historyId" : "a0d648e6d1e43a5bee88698f033a1827",
@@ -23,10 +23,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "status" : "passed",
@@ -41,10 +41,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "ClickToForms",
       "time" : {
@@ -56,10 +56,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "ClickToPracticeForms",
       "time" : {
@@ -71,10 +71,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "FillFirstName",
       "time" : {
@@ -89,10 +89,10 @@
         "name" : "firstname",
         "value" : "Gio"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "FillLastName",
       "time" : {
@@ -107,10 +107,10 @@
         "name" : "lastName",
         "value" : "Bolota"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "FillGender",
       "time" : {
@@ -125,10 +125,10 @@
         "name" : "gender",
         "value" : "Male"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "FillPhoneNumber",
       "time" : {
@@ -143,10 +143,10 @@
         "name" : "phone",
         "value" : "9995555999"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Submit",
       "time" : {
@@ -158,10 +158,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "CheckMainText",
       "time" : {
@@ -176,10 +176,10 @@
         "name" : "text",
         "value" : "Thanks for submitting the form"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Type firstname / lastname",
       "time" : {
@@ -197,10 +197,10 @@
         "name" : "lastName",
         "value" : "Bolota"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "CheckStudentGenderText",
       "time" : {
@@ -215,10 +215,10 @@
         "name" : "gender",
         "value" : "Male"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "CheckStudentPhoneNumber",
       "time" : {
@@ -233,17 +233,17 @@
         "name" : "phone",
         "value" : "9995555999"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 12,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -300,6 +300,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f6e8684af3a9ce64.json",
+  "source" : "b6925dd88ef9f75f.json",
   "parameterValues" : [ ]
 }

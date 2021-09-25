@@ -1,5 +1,5 @@
 {
-  "uid" : "4619b88898b2eebf",
+  "uid" : "54d0fc8a94dfb9c6",
   "name" : "Running the main test",
   "fullName" : "FluentAPI.FluentDemoqaTests.MainTest",
   "historyId" : "a0d648e6d1e43a5bee88698f033a1827",
@@ -25,10 +25,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "status" : "failed",
@@ -45,10 +45,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "ClickToForms",
       "time" : {
@@ -60,10 +60,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "ClickToPracticeForms",
       "time" : {
@@ -75,10 +75,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "FillFirstName",
       "time" : {
@@ -93,10 +93,10 @@
         "name" : "firstname",
         "value" : "Gio"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "FillLastName",
       "time" : {
@@ -111,10 +111,10 @@
         "name" : "lastName",
         "value" : "Bolota"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "FillGender",
       "time" : {
@@ -129,10 +129,10 @@
         "name" : "gender",
         "value" : "Male"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "FillPhoneNumber",
       "time" : {
@@ -147,10 +147,10 @@
         "name" : "phone",
         "value" : "9995555999"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Submit",
       "time" : {
@@ -162,10 +162,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "CheckMainText",
       "time" : {
@@ -180,10 +180,10 @@
         "name" : "text",
         "value" : "Thanks for submitting the form"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Check fullName with Gio and Gio",
       "time" : {
@@ -201,10 +201,10 @@
         "name" : "lastName",
         "value" : "Gio"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "CheckStudentGenderText",
       "time" : {
@@ -224,20 +224,20 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "gender",
         "value" : "Male"
       } ],
-      "hasContent" : true,
       "stepsCount" : 1,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "CheckStudentPhoneNumber",
       "time" : {
@@ -252,17 +252,17 @@
         "name" : "phone",
         "value" : "9995555999"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 13,
-    "shouldDisplayMessage" : true,
-    "attachmentsCount" : 0
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -313,203 +313,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "2bb2dc765ddc1cdb",
-      "status" : "failed",
-      "statusDetails" : "Element should have text 'Gio Gio' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(1) > td:nth-child(2)}\r\nElement: '<td>Gio Bolota</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632509064553.1.png\r\nTimeout: 4 s.",
-      "time" : {
-        "start" : 1632509057200,
-        "stop" : 1632509064859,
-        "duration" : 7659
-      }
-    }, {
-      "uid" : "6a033e392791a29f",
-      "status" : "failed",
-      "statusDetails" : "Element should have text 'Gio Gio' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(1) > td:nth-child(2)}\r\nElement: '<td>Gio Bolota</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632509055350.0.png\r\nTimeout: 4 s.",
-      "time" : {
-        "start" : 1632509049126,
-        "stop" : 1632509055710,
-        "duration" : 6584
-      }
-    }, {
-      "uid" : "dff529851c43e201",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632508416107,
-        "stop" : 1632508417782,
-        "duration" : 1675
-      }
-    }, {
-      "uid" : "575af7ac14fbd03",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632508413802,
-        "stop" : 1632508415498,
-        "duration" : 1696
-      }
-    }, {
-      "uid" : "223b4cfc4148fde7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632508410999,
-        "stop" : 1632508413113,
-        "duration" : 2114
-      }
-    }, {
-      "uid" : "cd686cd3d1044243",
-      "status" : "failed",
-      "statusDetails" : "Element should have text '_gender' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(3) > td:nth-child(2)}\r\nElement: '<td>Male</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632507658619.14.png\r\nTimeout: 4 s.",
-      "time" : {
-        "start" : 1632507652734,
-        "stop" : 1632507658882,
-        "duration" : 6148
-      }
-    }, {
-      "uid" : "b8b42eb597d13a9c",
-      "status" : "failed",
-      "statusDetails" : "Element should have text '_gender' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(3) > td:nth-child(2)}\r\nElement: '<td>Male</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632507651816.13.png\r\nTimeout: 4 s.",
-      "time" : {
-        "start" : 1632507646071,
-        "stop" : 1632507652045,
-        "duration" : 5974
-      }
-    }, {
-      "uid" : "224170ef11ccd4a3",
-      "status" : "failed",
-      "statusDetails" : "Element should have text '_gender' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(3) > td:nth-child(2)}\r\nElement: '<td>Male</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632507645253.12.png\r\nTimeout: 4 s.",
-      "time" : {
-        "start" : 1632507639589,
-        "stop" : 1632507645549,
-        "duration" : 5960
-      }
-    }, {
-      "uid" : "957cde256a8ee37c",
-      "status" : "failed",
-      "statusDetails" : "Element should have text '_gender' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(3) > td:nth-child(2)}\r\nElement: '<td>Male</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632507638849.11.png\r\nTimeout: 4 s.",
-      "time" : {
-        "start" : 1632507633050,
-        "stop" : 1632507639102,
-        "duration" : 6052
-      }
-    }, {
-      "uid" : "75fc20eaf5ca5361",
-      "status" : "failed",
-      "statusDetails" : "Element should have text '_gender' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(3) > td:nth-child(2)}\r\nElement: '<td>Male</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632507632244.10.png\r\nTimeout: 4 s.",
-      "time" : {
-        "start" : 1632507626420,
-        "stop" : 1632507632493,
-        "duration" : 6073
-      }
-    }, {
-      "uid" : "d609dbb2b31f90e1",
-      "status" : "failed",
-      "statusDetails" : "Element should have text '_gender' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(3) > td:nth-child(2)}\r\nElement: '<td>Male</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632507625546.9.png\r\nTimeout: 4 s.",
-      "time" : {
-        "start" : 1632507619779,
-        "stop" : 1632507625895,
-        "duration" : 6116
-      }
-    }, {
-      "uid" : "c5604e0da38c9bb2",
-      "status" : "failed",
-      "statusDetails" : "Element should have text '_gender' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(3) > td:nth-child(2)}\r\nElement: '<td>Male</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632507618865.8.png\r\nTimeout: 4 s.",
-      "time" : {
-        "start" : 1632507613215,
-        "stop" : 1632507619234,
-        "duration" : 6019
-      }
-    }, {
-      "uid" : "12d5b477bd5459ca",
-      "status" : "failed",
-      "statusDetails" : "Element should have text '_gender' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(3) > td:nth-child(2)}\r\nElement: '<td>Male</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632507612386.7.png\r\nTimeout: 4 s.",
-      "time" : {
-        "start" : 1632507606847,
-        "stop" : 1632507612654,
-        "duration" : 5807
-      }
-    }, {
-      "uid" : "d39b4a4946963669",
-      "status" : "failed",
-      "statusDetails" : "Element should have text '_gender' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(3) > td:nth-child(2)}\r\nElement: '<td>Male</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632507605377.6.png\r\nTimeout: 4 s.",
-      "time" : {
-        "start" : 1632507599247,
-        "stop" : 1632507605866,
-        "duration" : 6619
-      }
-    }, {
-      "uid" : "56350fcbd7125e15",
-      "status" : "failed",
-      "statusDetails" : "Element should have text '_gender' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(3) > td:nth-child(2)}\r\nElement: '<td>Male</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632507598439.5.png\r\nTimeout: 4 s.",
-      "time" : {
-        "start" : 1632507592551,
-        "stop" : 1632507598715,
-        "duration" : 6164
-      }
-    }, {
-      "uid" : "40b595723e705e91",
-      "status" : "failed",
-      "statusDetails" : "Element should have text '_gender' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(3) > td:nth-child(2)}\r\nElement: '<td>Male</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632507591645.4.png\r\nTimeout: 4 s.",
-      "time" : {
-        "start" : 1632507585771,
-        "stop" : 1632507591965,
-        "duration" : 6194
-      }
-    }, {
-      "uid" : "451afb828620ad7d",
-      "status" : "failed",
-      "statusDetails" : "Element should have text '_gender' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(3) > td:nth-child(2)}\r\nElement: '<td>Male</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632507584337.3.png\r\nTimeout: 4 s.",
-      "time" : {
-        "start" : 1632507578558,
-        "stop" : 1632507584632,
-        "duration" : 6074
-      }
-    }, {
-      "uid" : "2a5491a61413ddf0",
-      "status" : "failed",
-      "statusDetails" : "Element should have text '_gender' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(3) > td:nth-child(2)}\r\nElement: '<td>Male</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632507577525.2.png\r\nTimeout: 4 s.",
-      "time" : {
-        "start" : 1632507571729,
-        "stop" : 1632507578008,
-        "duration" : 6279
-      }
-    }, {
-      "uid" : "130d1e789f1c6a5e",
-      "status" : "failed",
-      "statusDetails" : "Element should have text '_gender' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(3) > td:nth-child(2)}\r\nElement: '<td>Male</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632507570832.1.png\r\nTimeout: 4 s.",
-      "time" : {
-        "start" : 1632507565079,
-        "stop" : 1632507571167,
-        "duration" : 6088
-      }
-    }, {
-      "uid" : "4c6368e0e6930870",
-      "status" : "failed",
-      "statusDetails" : "Element should have text '_gender' {body > div.fade.modal.show > div > div > div.modal-body > div > table > tbody > tr:nth-child(3) > td:nth-child(2)}\r\nElement: '<td>Male</td>'\r\nScreenshot: file:/D:/Coding/Test%20Automation/TBC/designPatterns_homework2/build/reports/tests/1632507562762.0.png\r\nTimeout: 4 s.",
-      "time" : {
-        "start" : 1632507556521,
-        "stop" : 1632507563088,
-        "duration" : 6567
-      }
-    }, {
-      "uid" : "f6e8684af3a9ce64",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632506676878,
-        "stop" : 1632506679136,
-        "duration" : 2258
-      }
-    } ],
-    "categories" : [ {
-      "name" : "Product defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4619b88898b2eebf.json",
+  "source" : "54d0fc8a94dfb9c6.json",
   "parameterValues" : [ ]
 }

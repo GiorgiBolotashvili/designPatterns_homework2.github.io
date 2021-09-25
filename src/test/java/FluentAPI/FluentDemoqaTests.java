@@ -18,15 +18,17 @@ public class FluentDemoqaTests extends ConfigurationClass {
     private String _mainText = "Thanks for submitting the form";
     private String _url = "https://demoqa.com/";
 
-    @BeforeMethod(description = "Assign a configuration ")
+    @Description("Assign a configuration ")
+    @BeforeMethod
     public void Start(){
         _demoqaPage = new DemoqaPage(_url);
     }
 
 
+    @Description("Running the main test")
     @Severity(SeverityLevel.NORMAL)
     @Story("Base support for annotations")
-    @Test(description = "Running the main test", invocationCount = 3)
+    @Test(invocationCount = 3)
     public void MainTest(){
         _demoqaPage
                 .Navigate()

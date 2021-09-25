@@ -13,9 +13,11 @@ public class DemoqaPageElements {
     public DemoqaPageElements(String url){
         open(url);
     }
+    @Step
     public SelenideElement Forms(){
         return $("#app > div > div > div.home-body > div > div:nth-child(2)");
     }
+    @Step
     public SelenideElement PracticeForms(){
         return $(By.xpath("//div[@class='element-list collapse show']"));
     }
@@ -41,6 +43,7 @@ public class DemoqaPageElements {
     public SelenideElement PhoneNumber(){
         return $("#userNumber");
     }
+    @Step
     public SelenideElement SubmitButton(){
         return $("#submit");
     }
