@@ -1,6 +1,7 @@
 package FluentAPI;
 
 import com.codeborne.selenide.Condition;
+import io.qameta.allure.Flaky;
 import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Selenide.*;
@@ -26,6 +27,7 @@ public class DemoqaPage extends DemoqaPageElements {
         Forms().click();
         return this;
     }
+
     @Step
     public DemoqaPage ClickToPracticeForms() {
         PracticeForms().click();
@@ -62,6 +64,7 @@ public class DemoqaPage extends DemoqaPageElements {
         MainText().shouldHave(Condition.text(text));
         return this;
     }
+
     @Step("CheckStudentNameText with {0} and {1}")
     public DemoqaPage CheckStudentNameText(String firsName, String lastName){
         StudentNameText().shouldHave(Condition.text(firsName+" "+lastName));

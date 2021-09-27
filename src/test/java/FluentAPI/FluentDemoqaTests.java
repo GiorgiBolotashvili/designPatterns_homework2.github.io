@@ -5,6 +5,7 @@ import io.qameta.allure.*;
 
 import junit.framework.TestListener;
 import junit.textui.TestRunner;
+import org.junit.jupiter.api.DisplayName;
 import org.testng.ITestListener;
 import org.testng.TestListenerAdapter;
 import org.testng.annotations.BeforeMethod;
@@ -13,7 +14,7 @@ import org.testng.annotations.Test;
 
 
 @Epic("Allure examples")
-@Feature("selenide support")
+@Feature("selenide examples")
 @Listeners({SoftAsserts.class, TestLIstener.class})
 public class FluentDemoqaTests extends ConfigurationClass {
     private DemoqaPage _demoqaPage;
@@ -34,7 +35,8 @@ public class FluentDemoqaTests extends ConfigurationClass {
     @Description("Running the main test")
     @Severity(SeverityLevel.NORMAL)
     @Story("Base support for annotations")
-    @Test(invocationCount = 1)
+    @Test(priority = 1, invocationCount = 1, groups = "DemoqaTest")
+    @DisplayName("Demoqa main test")
     public void MainTest(){
         _demoqaPage
                 .Navigate()

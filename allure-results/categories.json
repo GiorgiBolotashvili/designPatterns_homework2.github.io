@@ -1,0 +1,16 @@
+[
+  {
+    "name": "DemoqaTest",
+    "matchedStatuses": ["skipped"]
+  },
+  {
+    "name": "DemoqaTest",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*THIS TEST IS FAILED.*"
+  },
+  {
+    "name": "DemoqaTest",
+    "matchedStatuses": ["broken"],
+    "traceRegex": ".*CHECK STACK TRACE.*"
+  }
+]

@@ -4,26 +4,26 @@
   "children" : [ {
     "name" : "Allure examples",
     "children" : [ {
-      "name" : "selenide support",
+      "name" : "selenide examples",
       "children" : [ {
         "name" : "Base support for annotations",
         "children" : [ {
           "name" : "MainTest",
-          "uid" : "b5c44285ce52ead4",
-          "parentUid" : "c3f5064ee16810558172be4c42fdf35a",
+          "uid" : "24070c1b4ac315a0",
+          "parentUid" : "2aa8fd177347726d519a857cfa9e974c",
           "status" : "failed",
           "time" : {
-            "start" : 1632551800991,
-            "stop" : 1632551807575,
-            "duration" : 6584
+            "start" : 1632760629432,
+            "stop" : 1632760635558,
+            "duration" : 6126
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "c3f5064ee16810558172be4c42fdf35a"
+        "uid" : "2aa8fd177347726d519a857cfa9e974c"
       } ],
-      "uid" : "2ba2f1d2545b144f92b8756a0ac4b567"
+      "uid" : "d1703f008290aea0d3b4ccbf17614d1b"
     } ],
     "uid" : "424406e423d06e35554b3b34fc7a7dbe"
   } ]

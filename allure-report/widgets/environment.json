@@ -1,1 +1,7 @@
-[ ]
+[ {
+  "values" : [ "Chrome" ],
+  "name" : "my.properties.browser"
+}, {
+  "values" : [ "https://demoqa.com/" ],
+  "name" : "my.properties.url"
+} ]
