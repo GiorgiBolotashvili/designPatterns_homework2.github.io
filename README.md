@@ -1,1 +1,0 @@
-# designPatterns_homework2
